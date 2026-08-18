@@ -1,0 +1,15 @@
+{
+  "name": "@railgun/agapodynamics-core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A causal-energetic research core for Agapodynamics.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "example": "node --experimental-strip-types examples/six-month-project.ts",
+    "check": "npm test"
+  }
+}
